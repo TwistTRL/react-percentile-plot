@@ -8,7 +8,7 @@
     "extends": "react-app"
   },
   "dependencies": {
-    "plot-utils": "github:zhoulytwinyu/plot-utils#v0.1.0",
+    "plot-utils": "github:zhoulytwinyu/plot-utils#v0.1.0"
   },
   "peerDependencies": {
     "prop-types": "^15.7.2",
