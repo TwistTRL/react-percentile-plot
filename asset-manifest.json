@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.js": "/react-percentile-plot/static/js/main.fe835699.chunk.js",
+    "main.js.map": "/react-percentile-plot/static/js/main.fe835699.chunk.js.map",
+    "runtime~main.js": "/react-percentile-plot/static/js/runtime~main.edbbdbbf.js",
+    "runtime~main.js.map": "/react-percentile-plot/static/js/runtime~main.edbbdbbf.js.map",
+    "static/js/2.49cdcb70.chunk.js": "/react-percentile-plot/static/js/2.49cdcb70.chunk.js",
+    "static/js/2.49cdcb70.chunk.js.map": "/react-percentile-plot/static/js/2.49cdcb70.chunk.js.map",
+    "index.html": "/react-percentile-plot/index.html",
+    "precache-manifest.c6315e6156fbb9d41d535f0cd46c727e.js": "/react-percentile-plot/precache-manifest.c6315e6156fbb9d41d535f0cd46c727e.js",
+    "service-worker.js": "/react-percentile-plot/service-worker.js"
+  }
+}
