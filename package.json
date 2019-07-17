@@ -1,20 +1,31 @@
 {
   "name": "react-percentile-plot",
   "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
+  "description": "...",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
   "eslintConfig": {
     "extends": "react-app"
+  },
+  "dependencies": {
+    "plot-utils": "github:zhoulytwinyu/plot-utils#v0.1.0",
+  },
+  "peerDependencies": {
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-react": "^7.0.0",
+    "gh-pages": "^2.0.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-plot-interaction-box": "github:twisttrl/react-plot-interaction-box#v0.1.0",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "^3.0.1"
   },
   "browserslist": {
     "production": [
@@ -27,5 +38,30 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-react",
+      "@babel/preset-env"
+    ]
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "dist": "export NODE_ENV=production && rm -rf dist && mkdir dist && npx babel src/lib --out-dir dist --copy-files",
+    "test": "react-scripts build",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "homepage": "https://twisttrl.github.io/react-percentile-plot",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/twisttrl/react-percentile-plot.git"
+  },
+  "author": "Lingyu Zhou",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/twisttrl/react-percentile-plot/issues"
   }
 }
