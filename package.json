@@ -8,7 +8,7 @@
     "extends": "react-app"
   },
   "dependencies": {
-    "plot-utils": "github:zhoulytwinyu/plot-utils#v0.1.0"
+    "plot-utils": "github:TwistTRL/plot-utils"
   },
   "peerDependencies": {
     "prop-types": "^15.7.2",
@@ -23,7 +23,7 @@
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-plot-interaction-box": "github:twisttrl/react-plot-interaction-box#v0.1.0",
+    "react-plot-interaction-box": "github:twisttrl/react-plot-interaction-box",
     "react-router-dom": "^5.0.0",
     "react-scripts": "^3.0.1"
   },
